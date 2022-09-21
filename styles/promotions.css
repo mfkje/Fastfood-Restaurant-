@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/* Purpose: CSS document for promotion page */
+/* Developed by: Jia Zhu, Tingting Song, Xiaotong Zhang */
+/* Script Date: September 12, 2021 */
+
+main {
+  background-image: url("../images/background.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+  padding-top: 20px;
+  margin-bottom: 16px;
+  height: 950px;
+}
+
+#leftSidebar {
+  color: white;
+  padding-top: 10px;
+  width: 25%;
+  float: left;
+}
+
+.drinkPic {
+  width: 80%;
+  height: 100%;
+  margin: 0 20px;
+}
+
+.sidebarHeading {
+  text-align: center;
+}
+
+#mainHeading{
+  color:white;
+  text-align: center;
+  font-family: "Lemon", cursive;
+}
+
+#mainContent {
+  height: 850px;
+  width: 50%;
+  background-color: #e09f3e;
+  float: left;
+  color: black;
+  text-align: center;
+  margin-top:24px;
+}
+
+div#countdown {
+    position: relative;
+    left:100px;
+    width:70%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+ }
+ 
+ div#countdown div {
+    display: block;
+    text-align: center;
+    width: 100%;
+    line-height: 1.2em;
+    font-size: 20px;
+    font-family: segment14, sans-serif;
+    color: #540b0e;
+    margin-top:35px;
+    text-shadow: 0px 0px 2px black, 0px 0px 4px black, -1px 1px 8px white, 
+                 1px -1px 8px rgb(197, 176, 176), -1px 1px 12px rgb(216, 168, 168), 1px -1px 12px white;
+ }
+ 
+ div#countdown div span {
+    font-size: 2em;   
+    color:black;
+    font-style:normal;
+ }
+
+ #promotion_info{
+   position:absolute;
+   margin-left: 400px;
+   margin-top:800px; 
+   color:#540b0e;
+   font-weight: 700;
+ }
+
+#rightSidebar {
+  font-size: large;
+  padding-top: 10px;
+  color: white;
+  width: 25%;
+  height: 69%;
+  float: right;
+  text-align: center;
+}
+
+div h1 span {
+  background-color: #540b0e;
+  display: inline-block;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+#veganBurgerPic {
+  width: 90%;
+  height: fit-content;
+}
+
+#phonePic {
+  width: 90%;
+  height: 100%;
+  margin: 0 -15px;
+}
+
+aside h2 {
+  padding: 10px;
+}
+
+main h3 {
+  padding: 15px 0;
+}
+
+main h4 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family:"Lemon", cursive; 
+    color:#540b0e;
+  }
+
+#appdownload {
+    position: relative;
+}
+
+#appstore {
+  margin-top: 15px;
+  padding-right: 23px;
+}
+
+#googleplay {
+  padding-top: 25px;
+}
+
+#promotion_sale{
+    position: relative;
+    margin-left:20px;
+}
+
+footer {
+    background-color: #9e2a2b;
+    text-align: center;
+    position: relative;
+    margin-top:-18px;
+    padding: 10px;
+}
+  
+footer h2 {
+    display: inline;
+    margin-right: auto;
+    padding: 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+  
+footer h3 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+  

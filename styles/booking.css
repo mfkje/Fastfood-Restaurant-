@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* Purpose: CSS document for booking page */
+/* Developed by: Jia Zhu, Tingting Song, Xiaotong Zhang */
+/* Script Date: September 12, 2021 */
+
+.booking {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+    background-image: url(/images/background.jpg);
+}
+
+.booking .booking-content {
+    font-family: 'Lemon', cursive;
+    margin-left:80px;
+    padding: 45px 0 15px 0;
+    color: white;
+}
+
+.booking .booking-content .section-header {
+    font-family: 'Lemon', cursive;
+    margin-bottom: 30px;
+}
+
+.booking .booking-form {
+    width: 450px;
+    height: auto;
+    float: right;
+    padding: 30px 30px;
+    margin-right: 80px;
+    background: #fbaf32;
+}
+
+.booking .booking-form .control-group {
+    margin-bottom: 15px;
+}
+
+.booking .booking-form .input-group-text {
+    position: absolute;
+    padding: 0;
+    border: none;
+    background: none;
+    top: 15px;
+    right: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.booking .booking-form .form-control {
+    height: 45px;
+    font-size: 14px;
+    color: rgb(3, 3, 3);
+    padding: 0 15px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background: transparent;
+}
+
+
+.booking .booking-form .btn.custom-btn {
+    width: 100%;
+    color: #fbaf32;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.booking .booking-form .btn.custom-btn:hover {
+    color: #ffffff;
+    background: transparent;
+}
+
+.booking .booking-form .input-group [data-toggle="datetimepicker"] {
+    cursor: default;
+}
+
+
+/*********  footer CSS *********/
+.app {
+    padding: 1.3em;
+    background-image: url(/images/background.jpg);  
+  }
+  
+  #appdownloadleft {
+    float: left;
+    width: 50%;
+    height: auto;
+  }
+  
+  #appdownloadleft {
+    float: right;
+    width: 50%;
+    height: auto;
+  }
+  
+  #appstore {
+    position: relative;
+    margin-top: 10px;
+    bottom: 0;
+    padding-left: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #googleplay {
+    position: relative;
+    bottom: 0;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+footer {
+    background-color: #9E2A2B;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}
+
+footer h2 {
+    display: inline;
+    margin-right: auto;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+footer h3 {
+    padding-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
